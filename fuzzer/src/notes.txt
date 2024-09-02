@@ -1,0 +1,12 @@
+
+
+Architecture:
+Mutation engine -> Execution engine
+
+Mutation engine:
+	Vars: 
+		- Mutated characters
+		- Initial fuzz string
+	Functions:
+		- Delete a random char	
+	
