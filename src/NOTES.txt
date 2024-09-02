@@ -1,0 +1,10 @@
+
+
+Read URL -> Validate (scheme, netloc, path, query, fragment) -> Return
+
+
+scheme is the protocol to be used, including http, https, ftp, file...
+netloc is the name of the host to connect to, such as www.google.com
+path is the path on that very host, such as search
+query is a list of key/value pairs, such as q=fuzzing
+fragment is a marker for a location in the retrieved document, such as #resul
